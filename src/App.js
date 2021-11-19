@@ -15,20 +15,20 @@ class App extends React.Component {
     };
   }
 
+  addToCart = () => {
+    const {cart, selectedProduct} = this.state
+    this.setState({cart: [...cart, selectedProduct]})
+  }
+
   render() {
     const allProducts = this.state.allProducts.map((product) => {
-      return (
-        <Products 
-        key={product.id}
-        product={product}
-        />
-      )
-    })
-   
+      return <Products key={product.name} product={product} />;
+    });
+
     return (
       <div className="app">
         <h2>My Garage Sale</h2>
-        <div>{allProducts}</div>
+        <div className="display">{allProducts}</div>
         <Cart />
         <Checkout />
       </div>

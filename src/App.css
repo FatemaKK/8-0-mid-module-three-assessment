@@ -1,13 +1,22 @@
 .app {
-    display: grid;
-    padding: 10px;
-    margin: 25px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 18px;
+  margin: auto;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .products {
-    display: grid;
-    padding: 10px;
-    margin: 25px;
+  display: grid;
+  padding: 8px;
+  /* margin: 10px; */
 }
 
-
+.shoppingCart {
+  text-align: left;
+  background-color: wheat;
+  padding: 8px;
+}
