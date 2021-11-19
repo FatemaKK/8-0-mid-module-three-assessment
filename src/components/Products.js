@@ -12,13 +12,17 @@ const Products = (props) => {
               <h3>{name}</h3>
               <p>Price: {formatter.format(price)}</p>  
               <button type='submit'>Add To Cart</button>
+              <br/>
+              <p>
               <img className='product-image' src={img} alt='{name} image'/> 
+              </p>
               <p>{description}</p>
             </div>
             </div>
             </>
         )
 }
+
 
     
 

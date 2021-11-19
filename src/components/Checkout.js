@@ -8,7 +8,7 @@ class Checkout extends Component {
         return (
             <form id='checkout'>
                 <h3>Checkout</h3>
-                <label htmlFor={'first-name'}>First Name</label>
+                <label htmlFor={'first-name'}>First Name: </label>
                 <input
                 type='text'
                 id='first-name'
@@ -16,7 +16,7 @@ class Checkout extends Component {
                 value=''
                 />
                 <br/>
-                <label htmlFor={'last-name'}>Last Name</label>
+                <label htmlFor={'last-name'}>Last Name: </label>
                 <input
                 type='text'
                 id='last-name'
@@ -24,7 +24,7 @@ class Checkout extends Component {
                 value=''
                 />
                 <br/>
-                <label htmlFor={'email'}>Email</label>
+                <label htmlFor={'email'}>Email: </label>
                 <input
                 type='text'
                 id='email'
@@ -32,7 +32,7 @@ class Checkout extends Component {
                 value=''
                 />
                 <br/>
-                <label htmlFor={'credit-card'}>Credit Card</label>
+                <label htmlFor={'credit-card'}>Credit Card: </label>
                 <input
                 type='number'
                 id='credit-card'
@@ -40,7 +40,7 @@ class Checkout extends Component {
                 value=''
                 />
                 <br/>
-                <label htmlFor={'zip-code'}>Zip Code</label>
+                <label htmlFor={'zip-code'}>Zip Code: </label>
                 <input
                 type='number'
                 id='zip-code'

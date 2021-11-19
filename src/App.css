@@ -1,9 +1,13 @@
 .app {
     display: grid;
+    padding: 10px;
+    margin: 25px;
 }
 
 .products {
     display: grid;
+    padding: 10px;
+    margin: 25px;
 }
 
 
